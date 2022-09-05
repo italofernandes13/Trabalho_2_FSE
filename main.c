@@ -161,9 +161,9 @@ int main(){
         // Verificamos se os dados estão consistentes no terminal
         int comandoUsuario = requestInt(leComandoUsuario);
         printf("Tempo %d s\n", timer);
-        // printf("Tempo Funcionamento %d s\n", tempoFunc);
-        // printf("Temp interna: %f\n", tempInterna);
-        // printf("Temp Referencia: %f\n", tempReferencia);
+        printf("Tempo Funcionamento %d s\n", tempoFunc);
+        printf("Temp interna: %f\n", tempInterna);
+        printf("Temp Referencia: %f\n", tempReferencia);
         printf("Comando usuario: %d\n", comandoUsuario);
 
         if(comandoUsuario == 1){
